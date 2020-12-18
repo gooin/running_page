@@ -1,0 +1,167 @@
+{
+    "id": "133cc579ff818cef2cd7c1257720e8644324a8cb0226c968a82bcc8ac4a439fd",
+    "type": "run",
+    "app_id": "com.garmin.garmin",
+    "start_epoch_ms": 1598527647000,
+    "end_epoch_ms": 1598527669000,
+    "last_modified": 1598975442096,
+    "active_duration_ms": 11000,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "speed",
+            "summary": "mean",
+            "source": "com.garmin.garmin.3145",
+            "app_id": "com.garmin.garmin",
+            "value": 0
+        },
+        {
+            "metric": "distance",
+            "summary": "total",
+            "source": "com.garmin.garmin.3145",
+            "app_id": "com.garmin.garmin",
+            "value": 0
+        },
+        {
+            "metric": "grade",
+            "summary": "mean",
+            "source": "com.garmin.garmin.3145",
+            "app_id": "com.garmin.garmin",
+            "value": 0
+        },
+        {
+            "metric": "rpe",
+            "summary": "max",
+            "source": "com.nike.running.ios.manualentry",
+            "app_id": "com.garmin.garmin",
+            "value": 3
+        },
+        {
+            "metric": "heart_rate",
+            "summary": "mean",
+            "source": "com.garmin.garmin.3145",
+            "app_id": "com.garmin.garmin",
+            "value": 75
+        }
+    ],
+    "sources": [
+        "com.garmin.garmin.3145",
+        "com.nike.running.ios.manualentry"
+    ],
+    "tags": {},
+    "change_tokens": [
+        "0809bd4dcd4f9690de55aecc9d7099a46125e4a55a5d4d0eea01037e8e06570a:1598975442096",
+        "6d4730d0637798c71e4dc627d57b03eb5c5be8ee3919c4e75f748dcad2c2761f:1598527681365"
+    ],
+    "metric_types": [
+        "distance",
+        "rpe",
+        "grade",
+        "heart_rate",
+        "speed"
+    ],
+    "metrics": [
+        {
+            "type": "distance",
+            "unit": "KM",
+            "source": "com.garmin.garmin.3145",
+            "appId": "com.garmin.garmin",
+            "values": [
+                {
+                    "start_epoch_ms": 1598527647000,
+                    "end_epoch_ms": 1598527648000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1598527648000,
+                    "end_epoch_ms": 1598527658000,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "speed",
+            "unit": "KMH",
+            "source": "com.garmin.garmin.3145",
+            "appId": "com.garmin.garmin",
+            "values": [
+                {
+                    "start_epoch_ms": 1598527647000,
+                    "end_epoch_ms": 1598527648000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1598527648000,
+                    "end_epoch_ms": 1598527658000,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "rpe",
+            "unit": "RATING",
+            "source": "com.nike.running.ios.manualentry",
+            "appId": "com.garmin.garmin",
+            "values": [
+                {
+                    "start_epoch_ms": 1598527647000,
+                    "end_epoch_ms": 1598527669000,
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "type": "heart_rate",
+            "unit": "BPM",
+            "source": "com.garmin.garmin.3145",
+            "appId": "com.garmin.garmin",
+            "values": [
+                {
+                    "start_epoch_ms": 1598527647000,
+                    "end_epoch_ms": 1598527648000,
+                    "value": 75
+                },
+                {
+                    "start_epoch_ms": 1598527648000,
+                    "end_epoch_ms": 1598527658000,
+                    "value": 75
+                }
+            ]
+        },
+        {
+            "type": "grade",
+            "unit": "RATIO",
+            "source": "com.garmin.garmin.3145",
+            "appId": "com.garmin.garmin",
+            "values": [
+                {
+                    "start_epoch_ms": 1598527647000,
+                    "end_epoch_ms": 1598527648000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1598527648000,
+                    "end_epoch_ms": 1598527658000,
+                    "value": 0
+                }
+            ]
+        }
+    ],
+    "moments": [
+        {
+            "key": "halt",
+            "value": "pause",
+            "timestamp": 1598527658000,
+            "app_id": "com.garmin.garmin",
+            "source": "com.garmin.garmin.3145"
+        },
+        {
+            "key": "lap",
+            "value": "1",
+            "timestamp": 1598527658000,
+            "app_id": "com.garmin.garmin",
+            "source": "com.garmin.garmin.3145"
+        }
+    ]
+}
