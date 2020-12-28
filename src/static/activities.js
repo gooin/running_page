@@ -558,6 +558,20 @@ const activities = [
     "average_heartrate": 147.0,
     "average_speed": 2.1303221936098096,
     "streak": 1
+  },
+  {
+    "run_id": 1609043457000,
+    "name": "run from gpx",
+    "distance": 978.7250929804254,
+    "moving_time": "0:07:33",
+    "type": "Run",
+    "start_date": "2020-12-27 04:30:57",
+    "start_date_local": "2020-12-27 12:30:57",
+    "location_country": "\u79d1\u6280\u516b\u8def/Keji 8th Rd., \u96c1\u5854\u533a (Yanta), \u897f\u5b89\u5e02, \u9655\u897f\u7701, 710075, \u4e2d\u56fd",
+    "summary_polyline": "q{woEytswSW`@Z~Go@p@FnNjAZTs@i@}Al@mD}@{BHqEp@iC{@qBY\\@xA",
+    "average_heartrate": 149.0,
+    "average_speed": 2.1605410441068993,
+    "streak": 1
   }
 ];
 
