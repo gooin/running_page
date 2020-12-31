@@ -586,6 +586,20 @@ const activities = [
     "average_heartrate": 154.0,
     "average_speed": 2.1939565266739622,
     "streak": 1
+  },
+  {
+    "run_id": 1609333152000,
+    "name": "run from gpx",
+    "distance": 6381.470100550368,
+    "moving_time": "0:44:34",
+    "type": "Run",
+    "start_date": "2020-12-30 12:59:12",
+    "start_date_local": "2020-12-30 20:59:12",
+    "location_country": "\u79d1\u6280\u516b\u8def/Keji 8th Rd., \u96c1\u5854\u533a (Yanta), \u897f\u5b89\u5e02, \u9655\u897f\u7701, 710075, \u4e2d\u56fd",
+    "summary_polyline": "i{woEenswS]xEBxA\\j@UpInALTa@o@aCp@kCmAsC`@yBMcBl@wBaAmBc@fAf@lDq@`DZnDUjHx@Rr@]m@iCx@mBCs@kAkQ_@h@\\xCi@bFXjCS`Id@TdA_@k@wCn@_C_A_CVaCO{Ab@mC{@gBWp@`@pFe@pARzFWzFVXzAi@y@wBz@cDaAmBj@sJ_AeBUpCXb@?jCi@bBZ|BYlIjATl@s@{@qB|@eCaAeCj@mJ{@kB_@h@ZzGe@z@RzFSbFj@f@bAi@k@yBr@kC_A{BXwBO{B^gC{@gB]x@b@lEk@pCVlCUfIz@Zl@e@k@{Bt@wC}@wBHkFb@oCw@{Ae@j@XvCAvB_@z@RjD",
+    "average_heartrate": 166.0,
+    "average_speed": 2.386488444484057,
+    "streak": 2
   }
 ];
 
