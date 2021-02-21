@@ -1,6 +1,5 @@
 // const
-const MAPBOX_TOKEN =
-  'pk.eyJ1IjoiZ29vaW4iLCJhIjoiY2ppY3RjcGd5MDRqcjNrbWFlanEyazk2OCJ9.-v6OvStrPvVwu2-Tx9Uogg';
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiZ29vaW4iLCJhIjoiY2ppY3RjcGd5MDRqcjNrbWFlanEyazk2OCJ9.-v6OvStrPvVwu2-Tx9Uogg';
 const MUNICIPALITY_CITIES_ARR = [
   '北京市',
   '上海市',
@@ -12,10 +11,8 @@ const MUNICIPALITY_CITIES_ARR = [
 
 // IF you outside China please make sure IS_CHINESE = false
 const IS_CHINESE = true;
-const CHINESE_INFO_MESSAGE = (yearLength, year) =>
-  `我用 App 记录自己跑步 ${yearLength} 年了，下面列表展示的是 ${year} 的数据`;
-const ENGLISH_INFO_MESSAGE = (yearLength, year) =>
-  `Running Journey with ${yearLength} Years, the table shows year ${year} data`;
+const CHINESE_INFO_MESSAGE = (yearLength, year) => `我用 App 记录自己跑步 ${yearLength} 年了，下面列表展示的是 ${year} 的数据`;
+const ENGLISH_INFO_MESSAGE = (yearLength, year) => `Running Journey with ${yearLength} Years, the table shows year ${year} data`;
 
 const INFO_MESSAGE = IS_CHINESE ? CHINESE_INFO_MESSAGE : ENGLISH_INFO_MESSAGE;
 const FULL_MARATHON_RUN_TITLE = IS_CHINESE ? '全程马拉松' : 'Full Marathon';
@@ -44,13 +41,12 @@ export {
   RUN_TITLES,
 };
 
-export const AVATAR =
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU'; // Temp avatar
+export const AVATAR = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU'; // Temp avatar
 export const NAVS = [
   { text: 'Blog', link: 'https://github.com/yihong0618/running_page' },
   { text: 'About', link: 'https://github.com/yihong0618/running_page' },
 ];
 
-const nike = 'rgb(224,237,94)';
-export const MAIN_COLOR = nike;
+const blue = 'rgba(102, 204, 255,0.2)';
+export const MAIN_COLOR = blue;
 export const PROVINCE_FILL_COLOR = '#47b8e0';
