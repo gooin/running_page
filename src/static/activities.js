@@ -684,6 +684,20 @@ const activities = [
     "average_heartrate": 157.0,
     "average_speed": 2.088648063990784,
     "streak": 1
+  },
+  {
+    "run_id": 1615098740000,
+    "name": "run from gpx",
+    "distance": 10266.396534522819,
+    "moving_time": "1:16:53",
+    "type": "Run",
+    "start_date": "2021-03-07 06:32:20",
+    "start_date_local": "2021-03-07 14:32:20",
+    "location_country": "\u96c1\u5854\u533a (Yanta), \u897f\u5b89\u5e02, \u9655\u897f\u7701, 7100, \u4e2d\u56fd",
+    "summary_polyline": "gzwoEcjcxSaB_CiBCk@h@{AcArA}BhA?dBs@PaCvAkCGuAC`BgAvBe@`DoCZoCrC{HzAkDfBB~@r@v@hDtAfCPp@QTiA~Cy@SgCfBoCfBOhCdFvCMfAy@vBeFxBsA`G{A|I@bEqBnAyAfBMbBoB|Cy@d@yAAqDo@{B_KyCo@wA_@kF{@e@wA\\MlARl@_AbDsA`@i@lAqCv@cB?iEjB_@nBNvF]bAwAIuAcEmAq@y@FcB|CIrCkApBq@hDwCn@qBfC{HbBiAdAgBXMfAnAtAdC`AdEE\\qA~Cw@[oBjBwCbBEvC~EnCCr@i@hCwFxAeAnIkBjHH~GsEhBU~AwAzCcA`@cE_AsEwCe@gBqAcB?g@oAHeCcA{Co@SiAz@[Mw@tHwEbC}DV{DvBYxB\\pFg@jAeACaCcGwAc@_CxDCdCoAjCc@~CaD\\wBnCsHxA{ApAaBNChAv@bA`GtB`CY`DyA`EW",
+    "average_heartrate": 165.0,
+    "average_speed": 2.2255357759641923,
+    "streak": 1
   }
 ];
 
