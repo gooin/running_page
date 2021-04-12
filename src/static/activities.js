@@ -838,6 +838,20 @@ const activities = [
     "average_heartrate": 147.0,
     "average_speed": 2.1456410048903787,
     "streak": 1
+  },
+  {
+    "run_id": 1618014658000,
+    "name": "run from gpx",
+    "distance": 20735.46923485142,
+    "moving_time": "2:07:08",
+    "type": "Run",
+    "start_date": "2021-04-10 00:30:58",
+    "start_date_local": "2021-04-10 08:30:58",
+    "location_country": "YeJia Inn, \u54b8\u5b81\u5b66\u5df7, \u5357\u9662\u95e8\u8857\u9053, \u7891\u6797\u533a, \u897f\u5b89\u5e02, \u9655\u897f\u7701, 710002, \u4e2d\u56fd",
+    "summary_polyline": "gcapEio|wSGlxBCxA]h@mg@JgBV_@tBiBG]}Bs_@XEa@y_AJe@}XYqcBMkFqBYJsCbBUDkCm@skCpAs@z\\FxE[nFn@hd@[uoAEsARe@dBv@nmCGX}APG|BJZzAFDr@b@h_Bt@vb@xxACbGLRpB^J|ACNuB|@OxTEh@\\xQu@Vm@Jc[Mc`B",
+    "average_heartrate": 175.0,
+    "average_speed": 2.7183362919312297,
+    "streak": 1
   }
 ];
 
