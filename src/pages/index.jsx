@@ -93,7 +93,7 @@ export default () => {
 
   const [viewport, setViewport] = useState({
     width: '100%',
-    height: 400,
+    height: 750,
     ...bounds,
   });
   const changeYear = (y) => {
@@ -103,7 +103,7 @@ export default () => {
     if (viewport.zoom > 3) {
       setViewport({
         width: '100%',
-        height: 400,
+        height: 750,
         ...bounds,
       });
     }
@@ -121,7 +121,7 @@ export default () => {
   useEffect(() => {
     setViewport({
       width: '100%',
-      height: 400,
+      height: 750,
       ...bounds,
     });
   }, [geoData]);
@@ -250,7 +250,7 @@ const YearsStat = ({ runs, year, onClick }) => {
           <br />
         </p>
       </section>
-      <hr color="red" />
+      <hr color="cyan" />
       {yearsArrayUpdate.map((year) => (
         <YearStat key={year} runs={runs} year={year} onClick={onClick} />
       ))}
@@ -271,7 +271,7 @@ const LocationStat = ({ runs, onClick }) => (
         Yesterday you said tomorrow.
       </p>
     </section>
-    <hr color="red" />
+    <hr color="cyan" />
     <LocationSummary key="locationsSummary" />
     <CitiesStat />
     <PeriodStat />
@@ -334,7 +334,7 @@ const YearStat = ({ runs, year, onClick }) => {
         )}
       </section>
       {hovered && <React.Suspense fallback="loading..."><YearSVG className={styles.yearSVG} /></React.Suspense>}
-      <hr color="red" />
+      <hr color="cyan" />
     </div>
   );
 };
@@ -348,7 +348,7 @@ const LocationSummary = () => (
       <Stat value={provinces.length} description=" 个省份" />
       <Stat value={Object.keys(cities).length} description=" 个城市" />
     </section>
-    <hr color="red" />
+    <hr color="cyan" />
   </div>
 );
 
@@ -363,7 +363,7 @@ const CitiesStat = () => {
           <Stat key={city} value={city} description={` ${(distance / 1000).toFixed(0)} KM`} citySize={3} />
         ))}
       </section>
-      <hr color="red" />
+      <hr color="cyan" />
     </div>
   );
 };
@@ -378,7 +378,7 @@ const PeriodStat = () => {
           <Stat key={period} value={period} description={` ${times} Runs`} citySize={3} />
         ))}
       </section>
-      <hr color="red" />
+      <hr color="cyan" />
     </div>
   );
 };
@@ -424,9 +424,9 @@ const RunMap = ({
   return (
     <ReactMapGL
       {...viewport}
-      mapStyle="mapbox://styles/mapbox/dark-v9"
+      mapStyle="mapbox://styles/gooin/cknpgvnvj141h17k1fxwromwd"
       onViewportChange={setViewport}
-      onLoad={addControlHandler}
+    //   onLoad={addControlHandler}
       mapboxApiAccessToken={MAPBOX_TOKEN}
     >
       <RunMapButtons changeYear={changeYear} />

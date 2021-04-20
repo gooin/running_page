@@ -33,7 +33,7 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div className="pa3 pa5-l">{children}</div>
+        <div style={{margin:'0 2rem'}}>{children}</div>
       </Fragment>
     )}
   />

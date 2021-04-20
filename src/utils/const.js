@@ -47,6 +47,6 @@ export const NAVS = [
   { text: 'About', link: 'https://github.com/yihong0618/running_page' },
 ];
 
-const blue = 'rgba(102, 204, 255,0.2)';
+const blue = 'rgba(102, 204, 255,0.4)';
 export const MAIN_COLOR = blue;
 export const PROVINCE_FILL_COLOR = '#47b8e0';

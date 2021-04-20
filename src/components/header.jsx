@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => {
     <>
       <nav
         className="db flex justify-between w-100 ph5-l"
-        style={{ marginTop: '3rem' }}
+        style={{ marginTop: '1rem' }}
       >
         {AVATAR && (
           <div className="dib w-25 v-mid">
